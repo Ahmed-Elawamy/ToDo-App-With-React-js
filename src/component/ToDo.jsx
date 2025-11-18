@@ -21,6 +21,7 @@ import { forwardRef } from "react";
 import { useContext } from "react";
 import { TodosContext } from "./contexts/todosContext";
 import TextField from "@mui/material/TextField";
+import { Height } from "@mui/icons-material";
 
 const Transition = forwardRef(function Transition(props, ref) {
     return <Slide direction="up" ref={ref} {...props} />;
@@ -168,18 +169,20 @@ export default function ToDo({ todo }) {
             <Card
                 className="todocard"
                 sx={{
-                    minWidth: 500,
+                    minWidth: { xs: "90%", sm: 500 }, // 90% عرض الشاشة على الهواتف، 500px على الشاشات الكبيرة
+                    width: "100%", // لتجنب تجاوز الشاشة
                     background: "#283593",
                     color: "white",
                     mt: 5,
                     p: 1,
                     direction: "rtl",
+                    mx: "auto", // تمركز الكارد أفقياً
                 }}
             >
                 <CardContent>
                     <Grid container spacing={2} alignItems="center">
                         {/* النص */}
-                        <Grid size={8} style={{ textAlign: "right" }}>
+                        <Grid size={6} style={{ textAlign: "right" }}>
                             <Typography
                                 style={{
                                     fontSize: "20px",
@@ -204,7 +207,7 @@ export default function ToDo({ todo }) {
                             display="flex"
                             justifyContent="space-around"
                             alignItems="center"
-                            size={4}
+                            size={6}
                             sx={{
                                 gap: 1,
                             }}

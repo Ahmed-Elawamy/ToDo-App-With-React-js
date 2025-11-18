@@ -21,20 +21,8 @@ function App() {
     const initailTodos = [
         {
             id: uuidv4(),
-            title: "قراءة الرحيق المختوم",
-            details: "كتاب في السيرة  ",
-            isCompleted: false,
-        },
-        {
-            id: uuidv4(),
-            title: "قراءة المنة",
-            details: "كتاب في العقيدة  ",
-            isCompleted: false,
-        },
-        {
-            id: uuidv4(),
-            title: "قراءة منار السبيل",
-            details: "كتاب في الفقه  ",
+            title: "انشئ مهمتك الأولى",
+            details: "راقب إنجازاتك",
             isCompleted: false,
         },
     ];
