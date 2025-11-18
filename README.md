@@ -1,6 +1,6 @@
 # ToDo-App-With-React-js
-"A simple task management app to create, track, and organize completed and pending tasks. Features a clean interface and saves tasks locally for easy access anytime, keeping your daily workflow organized and efficient."
 
+"A simple task management app to create, track, and organize completed and pending tasks. Features a clean interface and saves tasks locally for easy access anytime, keeping your daily workflow organized and efficient."
 
 # **ToDo App**
 
@@ -10,11 +10,11 @@
 
 ## **Features**
 
-* Add new tasks with a title.
-* Track completed and pending tasks.
-* Filter tasks: All / Completed / Not Completed.
-* Tasks are saved locally for persistence.
-* Clean and responsive interface (RTL supported).
+-   Add new tasks with a title.
+-   Track completed and pending tasks.
+-   Filter tasks: All / Completed / Not Completed.
+-   Tasks are saved locally for persistence.
+-   Clean and responsive interface (RTL supported).
 
 ---
 
@@ -52,19 +52,19 @@ yarn start
 
 ## **Usage**
 
-* Type the task title in the input box.
-* Click "Add" to create a new task.
-* Use the filter buttons to view All / Completed / Not Completed tasks.
-* Tasks are automatically saved in your browser’s local storage.
+-   Type the task title in the input box.
+-   Click "Add" to create a new task.
+-   Use the filter buttons to view All / Completed / Not Completed tasks.
+-   Tasks are automatically saved in your browser’s local storage.
 
 ---
 
 ## **Tech Stack**
 
-* **React** – Frontend library
-* **Material-UI (MUI)** – UI components
-* **UUID** – Unique IDs for tasks
-* **LocalStorage** – Persistent task storage
+-   **React** – Frontend library
+-   **Material-UI (MUI)** – UI components
+-   **UUID** – Unique IDs for tasks
+-   **LocalStorage** – Persistent task storage
 
 ---
 
@@ -82,4 +82,4 @@ my-react-app/
 ├─ .gitignore
 ├─ package.json
 └─ README.md
-؟
+```
